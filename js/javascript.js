@@ -7,6 +7,11 @@ let section_5_inner_txt_1 = document.querySelector('.section_5_inner_txt_1');
 let section_5_inner_txt_2 = document.querySelector('.section_5_inner_txt_2');
 let section_5_inner_btn = document.querySelector('.section_5_inner_btn');
 let section_6_img_box = document.querySelector('.section_6_img_box');
+let section_7_img_1 = document.querySelector('.section_7_img_1');
+let section_7_img_2 = document.querySelector('.section_7_img_2');
+let section_7_txt_1 = document.querySelector('.section_7_txt_1');
+let section_7_txt_2 = document.querySelector('.section_7_txt_2');
+let section_7_btn = document.querySelector('.section_7_btn');
 window.addEventListener('scroll', () => {
     let scroll_value = window.scrollY;
     console.log(scroll_value)
@@ -24,7 +29,6 @@ window.addEventListener('scroll', () => {
     }
     else {
         section_4_cup.style.animation = 'section_4_cup_del 3.5s normal forwards';
-
     }
     if (scroll_value > 1598) {
         section_5_inner_txt_1.style.animation = 'section_5_inner_txt_1 2s ease forwards'
@@ -41,6 +45,22 @@ window.addEventListener('scroll', () => {
     }
     else {
         section_6_img_box.style.animation = 'section_6_img_box_del 3s ease forwards'
+    }
+    if (scroll_value > 2521) {
+        section_7_img_2.style.animation = 'section_7_img 3.5s ease forwards'
+        section_7_img_1.style.animation = 'section_7_img 3.5s ease forwards'
+        section_7_txt_1.style.animation = 'section_7_txt_1 2s ease forwards'
+        section_7_txt_2.style.animation = 'section_7_txt_2 2.5s ease forwards'
+        section_7_txt_1.style.animation = 'section_7_txt_1 2s ease forwards'
+        section_7_btn.style.animation = 'section_7_btn 2.3s ease forwards'
+    }
+    else {
+        section_7_img_2.style.animation = 'section_7_img_del 3.5s ease forwards'
+        section_7_img_1.style.animation = 'section_7_img_del 3.5s ease forwards'
+        section_7_txt_1.style.animation = 'section_7_txt_1_del 2s ease forwards'
+        section_7_txt_2.style.animation = 'section_7_txt_2_del 2.5s ease forwards'
+        section_7_txt_1.style.animation = 'section_7_txt_1_del 2s ease forwards'
+        section_7_btn.style.animation = 'section_7_btn_del 2.3s ease forwards'
     }
 })
 
