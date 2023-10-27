@@ -655,7 +655,7 @@ a {
 .section_3 {
     width: 100vw;
     height: 573px;
-    background: url('/images/2023_autumn_promotion_bg.jpg') no-repeat center;
+    background: url('../images/2023_autumn_promotion_bg.jpg') no-repeat center;
     overflow: hidden;
 
 }
@@ -775,7 +775,7 @@ a {
 .section_4 {
     width: 100vw;
     height: 20.8vw;
-    background: url('/images/231023_pc_reserve_bg.jpg') no-repeat center;
+    background: url('../images/231023_pc_reserve_bg.jpg') no-repeat center;
     position: relative;
 }
 
@@ -868,7 +868,7 @@ a {
 .section_5 {
     width: 100vw;
     height: 83.1vh;
-    background: url('/images/230921_1_pc_pick_bg.jpg') center center no-repeat fixed #45434c;
+    background: url('../images/230921_1_pc_pick_bg.jpg') center center no-repeat fixed #45434c;
     background-size: auto 87%;
     padding: 0;
     background-position: bottom;
@@ -890,7 +890,7 @@ a {
     position: absolute;
     top: 6.2vw;
     left: -30.6vw;
-    background: url('/images/fav_prod_txt01.png') center no-repeat;
+    background: url('../images/fav_prod_txt01.png') center no-repeat;
     background-size: 100%;
     opacity: 0;
 }
@@ -950,7 +950,7 @@ a {
     height: 8.1vw;
     position: absolute;
     z-index: 7;
-    background: url('/images/fav_prod_txt02.png');
+    background: url('../images/fav_prod_txt02.png');
     top: 19.2vw;
     left: -30.6vw;
     opacity: 0;
@@ -960,7 +960,7 @@ a {
 .section_5_inner_img {
     width: 47.5vw;
     height: 29.9vw;
-    background: url('/images/2023_disney2_pick_img.png') center no-repeat;
+    background: url('../images/2023_disney2_pick_img.png') center no-repeat;
     background-size: 100%;
     z-index: 7;
     position: absolute;
@@ -1024,7 +1024,7 @@ a {
 .section_6 {
     width: 100vw;
     height: 20.8vw;
-    background: url('/images/reserve_bg_pc.png') no-repeat 50% 100%;
+    background: url('../images/reserve_bg_pc.png') no-repeat 50% 100%;
     background-size: 100%;
     font-family: 'Nanum Gothic', sans-serif;
 }
