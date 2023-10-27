@@ -3,7 +3,10 @@
 let section_3_img_box = document.querySelector('.section_3_img_box');
 let section_3_text_box = document.querySelector('.section_3_text_box');
 let section_4_cup = document.querySelector('.section_4_cup');
-
+let section_5_inner_txt_1 = document.querySelector('.section_5_inner_txt_1');
+let section_5_inner_txt_2 = document.querySelector('.section_5_inner_txt_2');
+let section_5_inner_btn = document.querySelector('.section_5_inner_btn');
+let section_6_img_box = document.querySelector('.section_6_img_box');
 window.addEventListener('scroll', () => {
     let scroll_value = window.scrollY;
     console.log(scroll_value)
@@ -19,9 +22,25 @@ window.addEventListener('scroll', () => {
     if (scroll_value > 1050) {
         section_4_cup.style.animation = 'section_4_cup 3.5s normal forwards';
     }
-    else{
+    else {
         section_4_cup.style.animation = 'section_4_cup_del 3.5s normal forwards';
 
+    }
+    if (scroll_value > 1598) {
+        section_5_inner_txt_1.style.animation = 'section_5_inner_txt_1 2s ease forwards'
+        section_5_inner_txt_2.style.animation = 'section_5_inner_txt_2 2.6s ease forwards'
+        section_5_inner_btn.style.animation = 'section_5_inner_btn 4s ease forwards'
+    }
+    else {
+        section_5_inner_txt_1.style.animation = 'section_5_inner_txt_1_del 2s ease forwards'
+        section_5_inner_txt_2.style.animation = 'section_5_inner_txt_2_del 2s ease forwards'
+        section_5_inner_btn.style.animation = 'section_5_inner_btn_del 2s ease forwards'
+    }
+    if (scroll_value > 2044) {
+        section_6_img_box.style.animation = 'section_6_img_box 3s ease forwards'
+    }
+    else {
+        section_6_img_box.style.animation = 'section_6_img_box_del 3s ease forwards'
     }
 })
 
