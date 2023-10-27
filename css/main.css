@@ -16,6 +16,8 @@ a {
 
 .container {
     width: 100vw;
+    position: relative;
+
 }
 
 /* 헤더 */
@@ -24,7 +26,9 @@ a {
     height: 15vh;
     border-top: 2px solid black;
     background: #f6f5ef;
-
+    position: sticky;
+    top: 0vw;
+    z-index: 11;
 }
 
 .section {
@@ -623,6 +627,10 @@ a {
     position: relative;
 }
 
+.section_2_conts_2::after {
+    clear: both;
+}
+
 .section_2_conts_bottom_p {
     line-height: 1.4;
     font-size: 0.7vw;
@@ -654,7 +662,7 @@ a {
 /* 섹션_3 */
 .section_3 {
     width: 100vw;
-    height: 573px;
+    height: 29.8vw;
     background: url('../images/2023_autumn_promotion_bg.jpg') no-repeat center;
     overflow: hidden;
 
@@ -867,8 +875,8 @@ a {
 /* 섹션_5 */
 .section_5 {
     width: 100vw;
-    height: 83.1vh;
-    background: url('../images/230921_1_pc_pick_bg.jpg') center center no-repeat fixed #45434c;
+    height: 41.6vw;
+    background: url('/images/230921_1_pc_pick_bg.jpg') center center no-repeat fixed #45434c;
     background-size: auto 87%;
     padding: 0;
     background-position: bottom;
@@ -1092,14 +1100,16 @@ a {
     border-radius: 5px;
     top: 13.4vw;
     left: 38.5vw;
-    transition:0.3s;
+    transition: 0.3s;
 }
-.section_6_inner_btn:hover{
-    background:rgba(31, 31, 31, 0.861);
+
+.section_6_inner_btn:hover {
+    background: rgba(31, 31, 31, 0.861);
 }
-.section_6_inner_btn:hover .section_6_inner_btn_a{
-    color:white;
-    border-bottom:1px solid white;
+
+.section_6_inner_btn:hover .section_6_inner_btn_a {
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 /* 섹션_6 */
